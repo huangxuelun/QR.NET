@@ -1,76 +1,39 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeLib", "QRCodeLib\QRCodeLib.csproj", "{E98126B2-AF17-4783-96B9-856D6744DCA3}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA51CB73-A1C4-41A8-9322-BDB92CB2C386}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRCodeSampleApp", "QRCodeSampleApp\QRCodeSampleApp.csproj", "{41E1CFDE-BFA0-4274-9267-B129B46BC312}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qr.Net.Tests", "Qr.Net.Tests\Qr.Net.Tests.csproj", "{0E365A65-F427-4DF5-BD9B-A59010206985}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7FD6167-6D26-41F8-8C00-6B0012B9F509}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28601211-467E-49BD-A99A-52BBF975F770}"
 	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		ThoughtWorks.QRCode.vsmdi = ThoughtWorks.QRCode.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qr.Net.Imaging", "Qr.Net.Imaging\Qr.Net.Imaging.csproj", "{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Qr.Net.Imaging", "src\Qr.Net.Imaging\Qr.Net.Imaging.xproj", "{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "QRCodeLib", "src\QRCodeLib\QRCodeLib.xproj", "{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = ThoughtWorks.QRCode.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|.NET = Debug|.NET
 		Debug|Any CPU = Debug|Any CPU
-		Debug|Mixed Platforms = Debug|Mixed Platforms
-		Release|.NET = Release|.NET
 		Release|Any CPU = Release|Any CPU
-		Release|Mixed Platforms = Release|Mixed Platforms
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|.NET.ActiveCfg = Release|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{E98126B2-AF17-4783-96B9-856D6744DCA3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|.NET.ActiveCfg = Release|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{41E1CFDE-BFA0-4274-9267-B129B46BC312}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Release|.NET.ActiveCfg = Release|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{0E365A65-F427-4DF5-BD9B-A59010206985}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Release|.NET.ActiveCfg = Release|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{896CE1AC-E91F-4F7B-85D5-BA56511D4D8D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DAF2031-AA3E-4BC3-A797-08DAA85E4B6D} = {FA51CB73-A1C4-41A8-9322-BDB92CB2C386}
+		{C7AA11C2-BB03-4C2F-871A-39E5CF6C1067} = {FA51CB73-A1C4-41A8-9322-BDB92CB2C386}
 	EndGlobalSection
 EndGlobal

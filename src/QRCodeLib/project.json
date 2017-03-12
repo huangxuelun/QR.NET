@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "CoreCompat.System.Drawing": "1.0.0-beta006",
+    "NETStandard.Library": "1.6.1",
+    "system.resources.readerwriter": "4.0.0-beta-23123",
+    "System.Runtime.Serialization.Formatters": "4.4.0-beta-24913-01"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
